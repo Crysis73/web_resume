@@ -1,5 +1,3 @@
-import 'package:web_resume/resume.dart';
-
 class TechnicalSkillsModel {
   List<String> proficientIn = [
     "AWS",
@@ -15,7 +13,9 @@ class TechnicalSkillsModel {
     "Jenkins",
     "Helm",
     "Vagrant",
-    "Javascript/HTML/CSS",
+    "React",
+    "HTML",
+    "CSS"
   ];
   List<String> familiarWith = [
     "C++",
