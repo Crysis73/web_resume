@@ -52,24 +52,24 @@ class ResumeBody extends StatelessWidget {
     return SingleChildScrollView(
       physics: BouncingScrollPhysics(),
       child: Center(
-        child: SizedBox(
-          width: Get.width * .8,
-          child: Padding(
-            padding: const EdgeInsets.all(50),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                headerText,
-                divider,
-                workExperienceSection,
-                divider,
-                projectSection,
-                divider,
-                techSkillsSection,
-                divider,
-                educationSection,
-              ],
-            ),
+        child: Padding(
+          padding: EdgeInsets.symmetric(
+            horizontal: Get.width * .1,
+            vertical: Get.height * .05,
+          ),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              headerText,
+              divider,
+              workExperienceSection,
+              divider,
+              projectSection,
+              divider,
+              techSkillsSection,
+              divider,
+              educationSection,
+            ],
           ),
         ),
       ),
